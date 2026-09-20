@@ -1,6 +1,6 @@
 # OverTheWire Bandit — Levels 0 to 11
 
-**Platform:** OverTheWire | **Category:** Linux / CLI | **Difficulty:** Beginner | **Date:*20/09/2026* 
+**Platform:** OverTheWire | **Category:** Linux / CLI | **Difficulty:** Beginner | **Date:*20/09/2026 
 
 ## Objective
 Work through the first twelve Bandit levels to build fluency with the
