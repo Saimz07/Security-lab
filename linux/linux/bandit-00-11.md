@@ -26,7 +26,7 @@ encoding.
 ## What I actually learned
 I learned basic working of the Linux command line and navigation in Linux system
 I practiced multiple commands and can now identify different file types, search for files based on specific conditions,
-find unique lines, extract readable text from binary files.
+find unique lines and extract readable text from binary files.
 These levels helped me become more comfortable with the terminal
 
 ## Where I got stuck
