@@ -7,7 +7,8 @@ was done in my own lab environment or on authorised training platforms.
 
 | Date | Name | Platform | Category |
 |------|------|----------|----------|
-| | | | |
+| 2026-09-25 | [Nmap Basics](networking/nmap-basics.md) | scanme.nmap.org | Networking |
+| 2026-09-20 | [Bandit 0–11](linux/bandit-00-11.md) | OverTheWire | Linux / CLI |
 
 ## Tools
 
