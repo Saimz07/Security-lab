@@ -21,8 +21,8 @@ Small Python utilities I've written while learning. Each has its own README.
 
 ## Lab setup
 
-VirtualBox on a host-only network. Kali Linux as the attacker,
-deliberately vulnerable VMs as targets, isolated from any other network.
+VMware Workstation Pro, two network adapters: NAT for internet, and a
+host-only network isolating the lab target from everything else.
 
 ---
 Everything here is for learning and defence. Nothing in this repository
