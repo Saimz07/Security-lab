@@ -7,6 +7,7 @@ was done in my own lab environment or on authorised training platforms.
 
 | Date | Name | Platform | Category |
 |------|------|----------|----------|
+| 2026-10-03 | [Nmap – Metasploitable](networking/nmap-metasploitable.md) | Metasploitable 2 | Networking |
 | 2026-10-03 | [Bandit 11–17](linux/bandit-11-17.md) | OverTheWire | Linux / CLI |
 | 2026-10-02 | [Lab Network Setup](networking/lab-network-setup.md) | VMware / Kali / Metasploitable | Networking / Lab Setup |
 | 2026-10-02 | [Bash Basics](tools/bash-basics/README.md) | Packt / Coursera | Shell Scripting |
