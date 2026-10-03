@@ -66,3 +66,10 @@ information that helps them identify possible weaknesses.
 - **One scan is often not enough.** The manual checks revealed the SSH and
   Apache versions where Nmap only reported `tcpwrapped`, which made it possible
   to identify the software and assess potential vulnerabilities.
+
+## Follow-up
+A later scan limited to the two open ports (`nmap -sV -p 22,80`) returned
+full version banners, matching my manual check. So the earlier `tcpwrapped`
+result wasn't a property of the target. It was probably caused by the volume
+of probes in the wider scan being throttled or dropped on the path. I can't
+confirm where, but scan scope clearly affected the result.
