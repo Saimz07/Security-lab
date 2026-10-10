@@ -45,7 +45,6 @@ After using xxd -r, the resulting file could still be compressed, and
 I had to repeatedly identify the file type, rename it with the appropriate extension,
 and decompress it layer by layer. It clicked when I understood that I wasn't looking for one command 
 to solve the whole file — I was following a repeated cycle of identify → rename → decompress → identify again.
-
 **Level 16 → 17:** I initially found several open ports in the given range and 
 assumed that any port accepting an SSL connection might be the answer. 
 After connecting to them with openssl s_client, 
