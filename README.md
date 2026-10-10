@@ -7,6 +7,10 @@ was done in my own lab environment or on authorised training platforms.
 
 | Date | Name | Platform | Category |
 |------|------|----------|----------|
+| 2026-10-10 | [SQLi — Retrieving Hidden Data](web/sqli-retrieving-hidden-data.md) | PortSwigger | SQL Injection |
+| 2026-10-10 | [Path Traversal, Simple Case](web/path-traversal-lab1.md) | PortSwigger | Path Traversal |
+| 2026-10-03 | [vsFTPd 2.3.4 Backdoor](linux/vsftpd-backdoor-exploit.md) | Metasploitable 2 | Exploitation |
+| 2026-10-03 | [Bandit 18–24](linux/bandit-18-24.md) | OverTheWire | Linux / CLI |
 | 2026-10-03 | [Nmap – Metasploitable](networking/nmap-metasploitable.md) | Metasploitable 2 | Networking |
 | 2026-10-03 | [Bandit 11–17](linux/bandit-11-17.md) | OverTheWire | Linux / CLI |
 | 2026-10-02 | [Lab Network Setup](networking/lab-network-setup.md) | VMware / Kali / Metasploitable | Networking / Lab Setup |
