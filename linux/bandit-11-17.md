@@ -39,13 +39,15 @@ Scanning the range with Nmap let me identify which ports were open and
 then determine which one was actually providing the expected service.
 
 ## Where I got stuck
-**Level 12 → 13** was the level where I got stuck the most. I initially understood that the file had been hex-dumped,	
+**Level 12 → 13**
+It  was the level where I got stuck the most. I initially understood that the file had been hex-dumped,	
 but the confusing part was realizing that restoring the hex dump was only the first step. 
 After using xxd -r, the resulting file could still be compressed, and 
 I had to repeatedly identify the file type, rename it with the appropriate extension,
 and decompress it layer by layer. It clicked when I understood that I wasn't looking for one command 
 to solve the whole file — I was following a repeated cycle of identify → rename → decompress → identify again.
-**Level 16 → 17:** I initially found several open ports in the given range and 
+**Level 16 → 17:**
+I initially found several open ports in the given range and 
 assumed that any port accepting an SSL connection might be the answer. 
 After connecting to them with openssl s_client, 
 I found that several ports did speak SSL, 
@@ -54,5 +56,6 @@ The important part was learning to distinguish between an open SSL service and
 the specific service the level was asking me to find. 
 Once I inspected the responses from the different ports, 
 I could identify the one that actually provided something useful for the next level.
+
 ---
 No passwords are included in this writeup.
