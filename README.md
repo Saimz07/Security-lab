@@ -7,6 +7,7 @@ was done in my own lab environment or on authorised training platforms.
 
 | Date | Name | Platform | Category |
 |------|------|----------|----------|
+| 2026-10-10 | [SQLi UNION Attacks](web/sqli-union-attacks.md) | PortSwigger | SQL Injection |
 | 2026-10-10 | [SQLi — Retrieving Hidden Data](web/sqli-retrieving-hidden-data.md) | PortSwigger | SQL Injection |
 | 2026-10-10 | [Path Traversal, Simple Case](web/path-traversal-lab1.md) | PortSwigger | Path Traversal |
 | 2026-10-03 | [vsFTPd 2.3.4 Backdoor](linux/vsftpd-backdoor-exploit.md) | Metasploitable 2 | Exploitation |
